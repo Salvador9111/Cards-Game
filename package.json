@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Scripts: `Assets/Scripts/` (Card3D, MemoryBoardManager, TactileHapticsManager) Shader:  `Assets/Shaders/LuxuryCard.shader` (URP, half precision, GPU-instanced, 6x3 face atlas) Android: `Android/AndroidManifest.xml` -> Assets/Plugins/Android/, `build.gradle.kts` for the exported Gradle project.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "@vitejs/plugin-react": "^6.1.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "vite": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
